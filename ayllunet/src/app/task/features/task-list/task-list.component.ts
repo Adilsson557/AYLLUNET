@@ -68,7 +68,7 @@ export default class TaskListComponent {
 
       alert('Perfil creado exitosamente.');
       this.resetForm();
-      this.router.navigate(['/dashboard']); // Redirigir al dashboard o la página que prefieras
+      this.router.navigate(['/post']); // Redirigir al dashboard o la página que prefieras
     } catch (error) {
       console.error('Error al crear el perfil:', error);
       alert('Error al crear el perfil.');
